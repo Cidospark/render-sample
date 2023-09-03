@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp Envy\\Desktop\\Sq018\\RenderSample\\RenderSample\\RenderSample.csproj": {}
+    "/Users/macbook/Projects/render-sample/RenderSample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp Envy\\Desktop\\Sq018\\RenderSample\\RenderSample\\RenderSample.csproj": {
+    "/Users/macbook/Projects/render-sample/RenderSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp Envy\\Desktop\\Sq018\\RenderSample\\RenderSample\\RenderSample.csproj",
+        "projectUniqueName": "/Users/macbook/Projects/render-sample/RenderSample.csproj",
         "projectName": "RenderSample",
-        "projectPath": "C:\\Users\\hp Envy\\Desktop\\Sq018\\RenderSample\\RenderSample\\RenderSample.csproj",
-        "packagesPath": "C:\\Users\\hp Envy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp Envy\\Desktop\\Sq018\\RenderSample\\RenderSample\\obj\\",
+        "projectPath": "/Users/macbook/Projects/render-sample/RenderSample.csproj",
+        "packagesPath": "/Users/macbook/.nuget/packages/",
+        "outputPath": "/Users/macbook/Projects/render-sample/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp Envy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/macbook/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,9 +43,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -73,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     }

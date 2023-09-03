@@ -13,5 +13,5 @@ RUN dotnet publish -c Release -o out
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
 COPY --from=build-env /app/out .
-ENTRYPOINT ["dotnet", "RenderSample.dll"]
-#CMD ASPNETCORE_URLS=http://*:$PORT dotnet UMS.dll
+#ENTRYPOINT ["dotnet", "RenderSample.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet RenderSample.dll
